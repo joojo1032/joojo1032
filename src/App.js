@@ -1,11 +1,11 @@
 import React from 'react';
-// import logo from './logo.svg';
-import './App.css';
+import 'antd/dist/antd.css';
+import { Routes } from './components/Routes';
 
 function App() {
   return (
     <div className="App">
-      <div><h2>Start running your code from here you Pussy Freak!</h2></div>
+      <Routes/>
     </div>
   );
 }
