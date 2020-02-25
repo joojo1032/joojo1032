@@ -13,32 +13,16 @@
     float: left;
 }
 
-.nav-container{
-    float: right;
-    width: 40%;
-    height: 60px;
-}
-
 .nav-content{
-    list-style-type: none;
-    width: 100%;
-    margin: 10px 0 0 60px; 
+    float: right;
+    margin: 15px;
 }
 
-li{
-    display: inline-block;
-    width: 20%;
-    text-align: center;
-    font: 20px Tahoma bold;
-    padding: 10px;
-}
-
-li .link{
+.link{
     color: white;
+    padding-left: 20px;
+    font: 20px Tahoma bold;
 }
 
-li :hover{
-    color: yellowgreen;
-}
 
 
