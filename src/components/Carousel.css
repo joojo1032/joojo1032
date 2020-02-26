@@ -1,0 +1,43 @@
+.ant-carousel .slick-slide{
+    text-align: center;
+    height: 600px;
+    background: teal;
+    overflow: hidden;
+}
+
+
+.image-box{
+    background-image: url("../images/3.jpg");
+    background-size: cover;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: 10% 30%;
+    opacity: 0.9;
+}
+
+.image-box2{
+    background-image: url("../images/1.jpg");
+    background-size: cover;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: 0% 30%;
+    opacity: 0.9;
+}
+
+.image-box3{
+    background-image: url("../images/2.jpg");
+    background-size: cover;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: 10% 70%;
+    opacity: 0.9;
+}
+
+.content-box{
+    margin-top: 250px;
+}
+
+.slider-content{
+    color: white;
+    font: 3vw Georgia bold;
+}
