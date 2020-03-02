@@ -1,0 +1,31 @@
+.container{
+    height: 100vh;
+}
+
+
+
+.login-container{
+    width: 100%;
+    background-image: url('../images/7.jpg');
+    height:90%;
+    background-size: cover;
+    text-align: center;
+}
+
+
+.form-container{
+    position: absolute;
+    width:500px;
+    margin-top: 15%;
+    margin-left: 35%;
+}
+
+
+.login-form {
+    max-width: 500px;
+}
+  
+  
+.login-form-button {
+    width: 50%;
+}

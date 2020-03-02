@@ -1,15 +1,16 @@
 .ant-carousel .slick-slide{
-    text-align: center;
-    height: 600px;
+    text-align: left;
+    height: 500px;
     background: teal;
     overflow: hidden;
+    text-align: center;
 }
 
 
 .image-box{
     background-image: url("../images/3.jpg");
     background-size: cover;
-    height: 600px;
+    height: 500px;
     background-repeat: no-repeat;
     background-position: 10% 30%;
     opacity: 0.9;
@@ -18,7 +19,7 @@
 .image-box2{
     background-image: url("../images/1.jpg");
     background-size: cover;
-    height: 600px;
+    height: 500px;
     background-repeat: no-repeat;
     background-position: 0% 30%;
     opacity: 0.9;
@@ -27,17 +28,41 @@
 .image-box3{
     background-image: url("../images/2.jpg");
     background-size: cover;
-    height: 600px;
+    height: 500px;
     background-repeat: no-repeat;
     background-position: 10% 70%;
     opacity: 0.9;
 }
 
 .content-box{
-    margin-top: 250px;
+    margin-top: 100px;
 }
 
 .slider-content{
-    color: white;
-    font: 3vw Georgia bold;
+    font-family: Tahoma;
+    font-size: 70px;
+    color: whitesmoke;
+}
+
+.content-header{
+    font-family: Tahoma;
+    font-size: 100px;
+    color: whitesmoke;
+    padding-bottom: 0px;
+    margin: 0px;
+    text-align: right;
+}
+
+.content-header2{
+    font-family: Tahoma;
+    font-size: 70px;
+    color: whitesmoke;
+    margin: 0px;
+    padding-top: 0px;
+    text-align: right;
+}
+
+.btn{
+    margin-top: 20px;
+    margin-left: 70vw;
 }
