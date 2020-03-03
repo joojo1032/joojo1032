@@ -5,4 +5,9 @@
 
 .body-container{
     display: block;
+    text-align: left;
+    font-style: italic;
+    font-weight: bold;
+    font-family: Tahoma;
+   
 }
