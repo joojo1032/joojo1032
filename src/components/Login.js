@@ -19,9 +19,9 @@ export class Login extends React.Component{
                     <Form
                         name="normal_login"
                         className="login-form"
-                        initialValues={{
+                        /*initialValues={{
                         remember: true,
-                        }}
+                        }}*/
                         onFinish={onFinish}
                     >
                         <Form.Item

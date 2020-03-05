@@ -5,6 +5,7 @@ import logo2 from '../images/13.jpg';
 import logo3 from '../images/14.jpg';
 import {TeamOutlined, BankOutlined, EnvironmentOutlined} from '@ant-design/icons';
 import { Head } from './Header';
+import { AdminCreate } from './AdminCreate';
 
 const {Meta} = Card;
 
@@ -89,6 +90,9 @@ export class Communities extends React.Component{
                                     </Row>
                                 </div>
                             </Card>
+                        </Col>
+                        <Col span={12}>
+                            <AdminCreate/>
                         </Col>
                     </Row>
                 </div>

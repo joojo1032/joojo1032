@@ -16,7 +16,6 @@ export class Head extends React.Component{
                     <ul className="nav-content">
                         <Link className="link" to="/">Home</Link>
                         <Link className="link" to="/Communities">Communities</Link>
-                        <Link className="link" to="/Admin">Admin</Link>
                     </ul>
             </div>
         )

@@ -5,6 +5,7 @@ import {Slider} from './Carousel';
 import { Content } from './Content';
 
 
+
 export class Home extends React.Component{
     render(){
         return(
