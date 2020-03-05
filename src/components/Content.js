@@ -7,7 +7,7 @@ export class Content extends React.Component{
     render(){
         return(
             <div>
-               <Card>
+               <Card bordered={false}>
                      <h1>Sustainable Development Goal 6</h1>
                      <p>Sustainable Development Goal 6 is one of 17 Sustainable Development Goals established by the United Nations General Assembly in 2015. It calls for clean water and sanitation for all people. The official wording is: <span style={{fontStyle: 'Italic', fontWeight: 'bold'}}>"Ensure availability and sustainable management of water and sanitation for all"</span>.</p> 
                      <p>Clean, accessible water for all is an essential part of the world we want to live in and there is sufficient fresh water on the planet to achieve this. However, due to bad economics or poor infrastructure, millions of people including children die every year from diseases associated with inadequate water supply, sanitation and hygiene.</p>

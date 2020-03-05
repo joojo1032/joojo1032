@@ -1,8 +1,8 @@
 import React from 'react';
 import {Card,  Statistic, Col, Row} from 'antd';
 import logo from '../images/12.jpg';
-import logo2 from '../images/14.jpg';
-import logo3 from '../images/15.jpg';
+import logo2 from '../images/13.jpg';
+import logo3 from '../images/14.jpg';
 import {TeamOutlined, BankOutlined, EnvironmentOutlined} from '@ant-design/icons';
 import { Head } from './Header';
 
@@ -13,10 +13,10 @@ export class Communities extends React.Component{
         return(
             <div>
                 <Head />
-                <div style={{marginTop:60, paddingLeft: 60}}>
-                    <Row gutter={16}>
-                        <Col span={8}>
-                            <Card 
+                <div style={{marginTop:60, paddingLeft: 90}}>
+                    <Row gutter={[8, 32]}>
+                        <Col span={12}>
+                            <Card
                                 style={{width:500}}
                                 cover ={ <img alt="logo" src={logo}/>}
                                 hoverable
@@ -40,7 +40,7 @@ export class Communities extends React.Component{
                                 </div>
                             </Card>
                         </Col>
-                        <Col span={8}>
+                        <Col span={12}>
                             <Card 
                                 style={{width:500}}
                                 cover ={ <img alt="logo" src={logo2}/>}
@@ -65,7 +65,7 @@ export class Communities extends React.Component{
                                 </div>
                             </Card>
                         </Col>
-                        <Col span={8}>
+                        <Col span={12}>
                             <Card 
                                 style={{width:500}}
                                 cover ={ <img alt="logo" src={logo3}/>}

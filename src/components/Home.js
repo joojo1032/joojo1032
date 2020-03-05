@@ -11,7 +11,9 @@ export class Home extends React.Component{
             <div className="body-container">
                 <Head/>
                 <Slider/>
+                <div style={{ margin: '0 5% 0 5%'}}>
                 <Content/>
+                </div>
             </div>
         )
     }
