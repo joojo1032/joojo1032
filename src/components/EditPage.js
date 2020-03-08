@@ -5,12 +5,12 @@ import logo2 from '../images/13.jpg';
 import logo3 from '../images/14.jpg';
 import {TeamOutlined, BankOutlined, EnvironmentOutlined} from '@ant-design/icons';
 import { Head } from './Header';
-import { AdminCreate } from './AdminCreate';
-import './Communities.css';
+import { Create} from './Create';
+import './EditPage.css';
 
 const {Meta} = Card;
 
-export class Communities extends React.Component{
+export class EditPage extends React.Component{
     render(){
         return(
             <div className="com-box">
@@ -93,7 +93,7 @@ export class Communities extends React.Component{
                             </Card>
                         </Col>
                         <Col span={12}>
-                            <AdminCreate/>
+                            <Create/>
                         </Col>
                     </Row>
                 </div>

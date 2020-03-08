@@ -1,7 +1,9 @@
 import React from 'react';
 import './Login.css'
-import { Form, Input, Button, Icon } from 'antd';
+import { Form, Input, Button} from 'antd';
 import { Head } from './Header';
+import {Link} from 'react-router-dom';
+import {LockOutlined, UserOutlined} from '@ant-design/icons';
 
 
 
@@ -33,7 +35,7 @@ export class Login extends React.Component{
                             },
                         ]}
                         >
-                        <Input prefix={<Icon type="user" style={{ color: 'rgba(0,0,0,.25)' }} />} placeholder="Username" />
+                        <Input prefix={<UserOutlined/>} placeholder="Username" />
                         </Form.Item>
                         <Form.Item
                         name="password"
@@ -45,16 +47,18 @@ export class Login extends React.Component{
                         ]}
                         >
                         <Input
-                            prefix={<Icon type="lock" style={{ color: 'rgba(0,0,0,.25)' }} />}
+                            prefix={<LockOutlined/>}
                             type="password"
                             placeholder="Password"
                         />
                         </Form.Item>
                 
                         <Form.Item>
-                        <Button type="primary" htmlType="submit" className="login-form-button">
-                            Log in
-                        </Button>
+                        <Link to="/Edit">
+                            <Button type="primary" htmlType="submit" className="login-form-button">
+                                Log in
+                            </Button>
+                        </Link>
                         
                         </Form.Item>
                     </Form>

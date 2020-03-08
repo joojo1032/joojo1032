@@ -5,7 +5,6 @@ import logo from '../images/logo.jpg';
 import {Avatar} from 'antd';
 
 
-
 export class Head extends React.Component{
     render(){
         return(

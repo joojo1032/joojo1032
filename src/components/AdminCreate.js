@@ -39,8 +39,8 @@ export class AdminCreate extends React.Component{
                     cancelText="No"
                 >
 
-                <Card hoverable style={{width: '500px', textAlign: 'center'}}>
-                    <PlusCircleTwoTone style={{fontSize: '300px'}}/>
+                <Card hoverable style={{ textAlign: 'center'}}>
+                    <PlusCircleTwoTone style={{fontSize: '16vw'}}/>
                     <h1 style={{marginTop: '20px', color: 'grey'}}>Add Community</h1>
                 </Card>
                 </Popconfirm>
