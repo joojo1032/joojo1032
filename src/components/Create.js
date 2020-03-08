@@ -130,7 +130,7 @@ const CommunitiesCreateForm = ({ visible, onCreate, onCancel }) => {
 };
 export class Create extends React.Component{
     state={
-        visible: false
+        visible: true
     }
 
     showModal = () => {

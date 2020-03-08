@@ -18,7 +18,7 @@ export class EditPage extends React.Component{
                 <Head/>
                 <div className="card-box">
                     <Row gutter={[64, 64]}>
-                        <Col span={12}>
+                        <Col span={8}>
                             <Link to="/map">
                             <Card
                                /* style={{width:500}}*/
@@ -30,7 +30,7 @@ export class EditPage extends React.Component{
                                     description="Boadi is a town in Ghana. It is 15 kilometers from the centre of Kumasi. It serves as a residential areas for workers in various companies in Kumasi"
                                 />
                                 <div style={{marginTop: 10}}>
-                                    <Row gutter={16}>
+                                    <Row gutter={8}>
                                         <Col span={8}>
                                             <Statistic title="Population" value={1200} prefix={<TeamOutlined style={{color: 'skyblue'}}/>}/>
                                         </Col>
@@ -38,7 +38,7 @@ export class EditPage extends React.Component{
                                             <Statistic title="Houses" value={650} prefix={<BankOutlined style={{color: 'skyblue'}}/>}/>
                                         </Col>
                                         <Col span={8}>
-                                            <Statistic title="Location" value={1200} prefix={<EnvironmentOutlined style={{color: 'skyblue'}}/>}/>
+                                            <Statistic title="Location" value={ '6.69,-1.55'} prefix={<EnvironmentOutlined style={{color: 'skyblue'}}/>}/>
                                         </Col>
                                     </Row>
                                 </div>
@@ -46,7 +46,7 @@ export class EditPage extends React.Component{
                             
                             </Link>
                         </Col>
-                        <Col span={12}>
+                        <Col span={8}>
                             <Card 
                                 /*style={{width:500}}*/
                                 cover ={ <img alt="logo" src={logo2}/>}
@@ -57,7 +57,7 @@ export class EditPage extends React.Component{
                                     description="Emena is a town in Ghana. It is 10 kilometers from the centre of Kumasi. It is a dormitory town that serves both inhabitants as well as"
                                 />
                                 <div style={{marginTop: 10}}>
-                                    <Row gutter={16}>
+                                    <Row gutter={8}>
                                         <Col span={8}>
                                             <Statistic title="Population" value={1120} prefix={<TeamOutlined style={{color: 'skyblue'}}/>}/>
                                         </Col>
@@ -71,7 +71,7 @@ export class EditPage extends React.Component{
                                 </div>
                             </Card>
                         </Col>
-                        <Col span={12}>
+                        <Col span={8}>
                             <Card 
                                /* style={{width:500}}*/
                                 cover ={ <img alt="logo" src={logo3}/>}
@@ -82,7 +82,7 @@ export class EditPage extends React.Component{
                                     description="Appiadu is a town in Ashanti region of Ghana, located in the Ejisu-Juaben District. Appiadu is about 27 kilometers northeast of Kumasi"
                                 />
                                 <div style={{marginTop: 10}}>
-                                    <Row gutter={16}>
+                                    <Row gutter={8}>
                                         <Col span={8}>
                                             <Statistic title="Population" value={100} prefix={<TeamOutlined style={{color: 'skyblue'}}/>}/>
                                         </Col>
@@ -96,7 +96,7 @@ export class EditPage extends React.Component{
                                 </div>
                             </Card>
                         </Col>
-                        <Col span={12}>
+                        <Col span={8}>
                             <Create/>
                         </Col>
                     </Row>
