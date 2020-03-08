@@ -4,6 +4,7 @@ import {Home} from './Home';
 import {Login} from './Login';
 import { Communities } from './Communities';
 import { EditPage } from './EditPage';
+import MapContainer from './Map';
 
 
 export class Routes extends React.Component{
@@ -15,6 +16,7 @@ export class Routes extends React.Component{
                     <Route exact path="/Admin" component={Login}/>
                     <Route exact path="/Communities" component={Communities}/>
                     <Route exact path="/Edit" component={EditPage}/>
+                    <Route exact path="/Map" component={MapContainer}/>
                 </Switch>
             </BrowserRouter>
         )

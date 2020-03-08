@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import {Card,  Statistic, Col, Row} from 'antd';
 import logo from '../images/12.jpg';
 import logo2 from '../images/13.jpg';
@@ -18,6 +19,7 @@ export class EditPage extends React.Component{
                 <div className="card-box">
                     <Row gutter={[64, 64]}>
                         <Col span={12}>
+                            <Link to="/map">
                             <Card
                                /* style={{width:500}}*/
                                 cover ={ <img alt="logo" src={logo}/>}
@@ -41,6 +43,8 @@ export class EditPage extends React.Component{
                                     </Row>
                                 </div>
                             </Card>
+                            
+                            </Link>
                         </Col>
                         <Col span={12}>
                             <Card 

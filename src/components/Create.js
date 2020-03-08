@@ -28,7 +28,7 @@ const CommunitiesCreateForm = ({ visible, onCreate, onCancel }) => {
   return (
     <Modal
       visible={visible}
-      title="Create a new collection"
+      title="Create a new community"
       okText="Create"
       cancelText="Cancel"
       onCancel={onCancel}
